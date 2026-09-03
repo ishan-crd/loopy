@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-label="Loop">
+  <rect width="960" height="320" rx="0" fill="#ECEBE8"/>
+
+  <!-- mark: a closed loop drawn as a rounded square, broken by a padlock shackle -->
+  <g transform="translate(96 72)" fill="none" stroke="#16150F" stroke-linecap="round">
+    <rect x="8" y="8" width="160" height="160" rx="56" stroke-width="10"/>
+    <!-- shackle -->
+    <path d="M60 92 v-16 a28 28 0 0 1 56 0 v16" stroke-width="10"/>
+    <!-- loop arrow inside -->
+    <path d="M60 118 a28 28 0 1 0 28 -28" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M88 74 l0 32 l-26 -4" stroke-width="10" stroke-linejoin="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="320" y="176" font-family="SF Pro Display, -apple-system, Helvetica Neue, Arial, sans-serif"
+        font-size="120" font-weight="500" letter-spacing="-4" fill="#16150F">Loop</text>
+  <text x="326" y="228" font-family="SF Pro Text, -apple-system, Helvetica Neue, Arial, sans-serif"
+        font-size="26" font-weight="400" letter-spacing="6" fill="#8B8A83">EARN YOUR SCREEN TIME</text>
+
+  <!-- hairline rule -->
+  <path d="M320 258 H 864" stroke="#D2D1CC" stroke-width="2"/>
+</svg>
